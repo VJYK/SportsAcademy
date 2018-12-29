@@ -1,0 +1,206 @@
+#color{
+	background-color: white;
+	margin:0px;
+	padding:0px;
+}
+
+
+header{
+	padding:20px;
+	margin:0px;
+	text-decoration:none;
+	color:white;
+	background-color: black;
+  	width:auto; 
+  	height: 100px;
+  	font-size: 20px;
+  	text-align:right;
+  }
+  
+
+#nav {
+    position:relative;
+    width:auto;
+    margin:0px;
+    margin-top:0px;
+    padding:0px ;
+    float:left;
+    
+}
+ 
+ul#navigation {
+    margin:auto;
+    position:none;
+    float:left;
+    }
+ 
+ul#navigation li {
+	text-decoration-style: none;
+    display:inline;
+    font-size:20px;
+    margin:0px;.
+    padding:0px;
+    float:left;
+    position:relative;
+    height: 60px;
+}
+ ul#navigation li a {
+    padding:10px 10px;
+    text-decoration:none;
+    display:inline-block;
+    border-right:0px solid #fff;
+    border-left:0px solid #C2C2C2;
+    border-top:0px solid #fff;
+    background: white;
+}
+ 
+ul#navigation li a:hover {
+    background:gray;
+    color:blue;
+}
+ 
+ul#navigation li a.first {
+    border-left: 0 none;
+}
+ 
+ul#navigation li a.last {
+    border-right: 0 none;
+}
+ 
+ul#navigation li:hover > a {
+    background:gray;
+}
+
+
+ul#navigation li:hover > ul
+{
+
+    visibility:visible;
+    opacity:1;
+}
+ 
+ul#navigation ul, ul#navigation ul li ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    visibility:hidden;
+    opacity:1;
+    position: absolute;
+    z-index: 99999;
+    width:180px;
+    background:#f8f8f8;
+   
+
+}
+ 
+ul#navigation ul {
+    top: 43px;
+    left: auto;
+}
+ 
+ul#navigation ul li ul {
+    top: 0;
+    right: 100px; 
+}
+ 
+ul#navigation ul li {
+    clear:both;
+    width:50%;
+    border:1px;
+   
+}
+ 
+ul#navigation ul li a {
+    background:none;
+    margin: 0px;
+    padding:9px 15px;
+    color:#616161;
+    text-decoration:none;
+    display:inline-block;
+    border:0 none;
+    float:left;
+    clear:both;
+    width:140px;
+}
+#image{
+	height:auto;
+	width:auto;
+
+}
+
+
+
+
+/*CSS FOR IMAGE ROTATION*/
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: auto;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+#a{
+	text-align: center;
+	text-decoration: 
+}
+p{
+	margin-left:70px;
+	padding:30px;
+	font-size: 25px;
+	text-align: center;
+}
+footer{
+	padding:40px;
+	margin:0px;
+	color:blue;
+	background-color: black;
+  	width:auto; 
+  	height: 100px;
+  	text-align: center;
+  	font-size: 20px;
+}

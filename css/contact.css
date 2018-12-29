@@ -1,0 +1,11 @@
+table,td{
+	color: white;
+
+	}
+	table
+	{
+		text-align: right;
+		border-spacing:10px;
+		border:solid black;
+		float:center;
+	}
